@@ -1,15 +1,16 @@
 {
   "name": "secrets-auth",
   "version": "1.0.0",
-  "description": "",
+  "description": "A replica of whisper app",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Anton Jeejo",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^4.0.1",
     "body-parser": "^1.19.0",
     "dotenv": "^8.2.0",
     "ejs": "^3.0.2",
